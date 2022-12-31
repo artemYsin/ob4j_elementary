@@ -16,8 +16,8 @@ public class PointTest {
     }
 
     @Test
-    public void when11to11then2() {
-        double expected = 0.0;
+    public void when11to11then0() {
+        double expected = 0;
         int x1 = 1;
         int y1 = 1;
         int x2 = 1;
@@ -27,8 +27,8 @@ public class PointTest {
     }
 
     @Test
-    public void when10to11then2() {
-        double expected = 1.0;
+    public void when10to11then1() {
+        double expected = 1;
         int x1 = 1;
         int y1 = 0;
         int x2 = 1;
@@ -38,8 +38,8 @@ public class PointTest {
     }
 
     @Test
-    public void when11to10then2() {
-        double expected = 1.0;
+    public void when11to10then1() {
+        double expected = 1;
         int x1 = 1;
         int y1 = 1;
         int x2 = 1;
