@@ -22,7 +22,6 @@ public class JavaNameValidator {
         return valid;
     }
 
-
     public static boolean isSpecialSymbol(int code) {
         if (code == 36 || code == 95) {
             return true;
