@@ -41,4 +41,36 @@ public class MaxTest {
         int expected = 2;
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    public void whenMax112Then2() {
+        int a = 1;
+        int b = 1;
+        int c = 2;
+        int result = Max.max(a, b, c);
+        int expected = 2;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    public void whenMax1123Then3() {
+        int a = 1;
+        int b = 1;
+        int c = 2;
+        int d = 3;
+        int result = Max.max(a, b, c, d);
+        int expected = 3;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    public void whenMax1111Then1() {
+        int a = 1;
+        int b = 1;
+        int c = 1;
+        int d = 1;
+        int result = Max.max(a, b, c, d);
+        int expected = 1;
+        assertThat(result).isEqualTo(expected);
+    }
 }
