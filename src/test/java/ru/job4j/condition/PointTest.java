@@ -39,4 +39,13 @@ public class PointTest {
         double out = a.distance(b);
         Assert.assertEquals(expected, out, 0.01);
     }
+
+    @Test
+    public void when111to000thenSqrt3() {
+        double expected = Math.sqrt(3);
+        Point a = new Point(1, 1, 1);
+        Point b = new Point(0, 0, 0);
+        double out = a.distance3d(b);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
